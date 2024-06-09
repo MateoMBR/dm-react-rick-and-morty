@@ -35,15 +35,15 @@
     padding: 10px 20px;
     font-size: 1em;
     border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #41b4c9;
+    color: #000000;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #3696a7;
   }
   
   button:focus {
