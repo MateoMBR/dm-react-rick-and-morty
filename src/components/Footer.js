@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2024 Rick and Morty Fan Club</p>
+      <p>&copy; 2024 Rick and Morty Fan Club by MateoMBR</p>
     </footer>
   );
 }

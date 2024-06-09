@@ -16,7 +16,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import CharacterList from './pages/CharacterList';
-import CharacterDetail from './pages/CharacterDetail';
+import CharacterDetail from './components/CharacterDetail';
 import About from './pages/About';
 import './App.css';
 
@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/character-list" element={<CharacterList/>}/>
-          <Route path="/character/:id" element={<CharacterDetail/>} />
+          <Route path="/character-list/:id" element={<CharacterDetail/>} />
           <Route path="/about" element={<About/>}/>
         </Routes>
       <Footer />

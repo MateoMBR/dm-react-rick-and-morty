@@ -41,7 +41,7 @@ function Home() {
       <h1>Home Page</h1>
       <button onClick={getRandomCharacter}>Get Random Character</button>
       {randomCharacter && (
-        <Link to={`/character/${randomCharacter.id}`}>
+        <Link to={`/character-list/${randomCharacter.id}`}>
         <div className="random-character">
           <h2>{randomCharacter.name}</h2>
           <img src={randomCharacter.image} alt={randomCharacter.name} />

@@ -35,7 +35,7 @@ function CharacterList() {
       <ul>
         {characters.map(character => (
           <li key={character.id}>
-            <Link to={`/character/${character.id}`}>
+            <Link to={`/character-list/${character.id}`}>
             <img src={character.image} alt={character.name} />
             <p>{character.name}</p>
             </Link>
