@@ -1,0 +1,52 @@
+/* Home.css */
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .random-character {
+    margin-top: 20px;
+  }
+  
+  .random-character h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .random-character img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .random-character a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

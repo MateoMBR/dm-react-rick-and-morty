@@ -1,0 +1,24 @@
+/* src/pages/CharacterDetail.css */
+.character-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .character-detail h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .character-detail img {
+    border-radius: 10px;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .character-detail p {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
