@@ -15,7 +15,7 @@ function Home() {
         setCharacters(data.results);
         setLoading(false);
 
-        // Select a random character as soon as the data is loaded
+        // Les perso en random
         const randomIndex = Math.floor(Math.random() * data.results.length);
         setRandomCharacter(data.results[randomIndex]);
       })
